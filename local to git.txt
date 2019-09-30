@@ -1,0 +1,69 @@
+
+bkongara@DIN65000251 MINGW64 ~ (master)
+$ cd c:/users/bkongara/Documents
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents (master)
+$ git clone https://github.com/BinduSri3/poc.git
+Cloning into 'poc'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents (master)
+$ ls
+ desktop.ini  'My Pictures'@        'My Videos'@   workspace-sts-3.9.9.RELEASE/
+'My Music'@   'My Received Files'/   poc/
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents (master)
+$ cd poc
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents/poc (master)
+$ ls
+README.md
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents/poc (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents/poc (master)
+$ git add .
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents/poc (master)
+$ ls
+poc.zip  README.md
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents/poc (master)
+$ git commit -m "react poc"
+[master 7549228] react poc
+ Committer: Kongara <bindu-sri.kongara@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 poc.zip
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents/poc (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 36.48 MiB | 47.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/BinduSri3/poc.git
+   36bae20..7549228  master -> master
+
+bkongara@DIN65000251 MINGW64 /c/users/bkongara/Documents/poc (master)
+$
